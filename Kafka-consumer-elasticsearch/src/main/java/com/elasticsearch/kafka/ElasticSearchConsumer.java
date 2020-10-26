@@ -22,9 +22,9 @@ public class ElasticSearchConsumer {
 
     public static RestHighLevelClient createClient(){
 
-        String hostname = "kafka-aayushi-8030465456.us-east-1.bonsaisearch.net";
-        String username = "bvimztibfx";
-        String password = "bh4ag32i45";
+        String hostname = "";
+        String username = "";
+        String password = "";
 
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
         credentialsProvider.setCredentials(AuthScope.ANY,new UsernamePasswordCredentials(username,password));
